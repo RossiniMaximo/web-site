@@ -47,11 +47,11 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
     height: 6px;
     background-color: black;
 }
-/* @media(min-width:769px){
+/*  @media(min-width:769px){
     .linea-menu-hamburguesa{
         display:none;
     }
-} */
+}  */
 
 .contenedor-links{
     display: none;
@@ -112,12 +112,6 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
   */
 
 
-.titulo-primer-secc{
-    font-family: "Open Sans";
-    font-size: 44px;
-    margin:0;
-
-}
 
 
   @media(min-width:796px){
@@ -152,7 +146,7 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
 .segunda-secc{
     background-color: black;
     width : 100%;
-    height : 538px;
+    
 }
 
  @media(min-width:796px){
@@ -161,6 +155,7 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         padding: 0 100px;
+        width: 100%;
     }
 } 
 
@@ -428,14 +423,14 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
 .footer{
     background: url(./imagenes/puntitos.jpg);
     height:493px;
-     width: 100%; 
-    margin-left: 20px;
+    width: 100%; 
+    padding-left : 15px
 }
 
 @media(min-width:796px){
     .footer{
         display: flex;
-        margin-left: 0;
+        
     }
 }
 
@@ -461,7 +456,6 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
     display : flex;
     flex-direction: column;
     margin-top: 50px;
-    padding:0 12px;
     margin-top: 5px;
 }
 

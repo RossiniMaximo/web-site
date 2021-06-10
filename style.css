@@ -93,7 +93,8 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
         flex-direction: row;
         justify-content: space-between;
         padding: 120px 40px 0 40px;
-        overflow:hidden
+        overflow:hidden;
+        height: 500px;
     }
 }
 
@@ -142,6 +143,7 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
     .foto-carnet{
         width:480px;
         height : 300px;
+        margin-top: 90px;
     } 
     
 }
@@ -272,6 +274,7 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
     .contenedor-informacion-personal{
        display:grid;
        grid-template-columns: 1fr 1fr 1fr;
+      
     }
 } 
 
@@ -281,6 +284,7 @@ body { width:100%; height:100%; margin:0; padding:0;background: url(./imagenes/p
     flex-direction: column;
     align-items: center;
     margin-top:20px;
+    max-width: 300px;
 
 }
 
